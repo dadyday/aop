@@ -1,0 +1,10 @@
+extensions:
+	aop: Kdyby\Aop\DI\AopExtension
+	annotations: Kdyby\Annotations\DI\AnnotationsExtension
+	aspects: Kdyby\Aop\DI\AspectsExtension
+
+services:
+	test: Test\Test
+
+aspects:
+	- BeforeAspect()

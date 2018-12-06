@@ -1,0 +1,20 @@
+{
+    "name": "user/aop",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "goaop/framework": "^2.2",
+        "tracy/tracy": "^2.5",
+        "kdyby/aop": "@dev",
+        "nette/bootstrap": "^2.4",
+        "nette/reflection": "^2.4",
+        "nette/tokenizer": "^2.3",
+        "nette/tester": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/",
+            "Aop\\": "src/Aop/"
+        }
+    }
+}
