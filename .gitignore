@@ -3,3 +3,4 @@ _backup/
 vendor/
 **/_*
 temp/
+aop/
